@@ -71,7 +71,7 @@ exports.sendPayout = [
         amount: amount * conversionRate,
         currency,
         network,
-        callbackUrl: "https://api.bloxpvp.com/withdraw/callback",
+        callbackUrl: "https://localhost/withdraw/callback",
       };
 
       const payoutResponse = await axios.post(
