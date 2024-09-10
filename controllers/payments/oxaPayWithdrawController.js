@@ -71,7 +71,7 @@ exports.sendPayout = [
         amount: amount * conversionRate,
         currency,
         network,
-        callbackUrl: "https://localhost/withdraw/callback",
+        callbackUrl: "https://ggshelpice-vwiv.onrender.com/withdraw/callback",
       };
 
       const payoutResponse = await axios.post(

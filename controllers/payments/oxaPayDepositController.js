@@ -104,7 +104,7 @@ const createStaticAddress = [
     const data = JSON.stringify({
       merchant: process.env.OXAPAY_MERCHANT_API_KEY,
       currency: currency,
-      callbackUrl: "https://localhost/callback",
+      callbackUrl: "https://ggshelpice-vwiv.onrender.com/callback",
     });
 
     try {
